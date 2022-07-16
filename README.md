@@ -1,5 +1,16 @@
-### Start app
-- go in app dir `cd node-kafka`
-- run `docker-compose up -d` to start kafka & kafka-zookeeper
-- start consumer `npm run start:consumer`
-- start producer `npm run start:producer`
+#### start
+
+start **kafka** & **kafka-zookeeper** in docker-compose
+
+```bash
+docker-compose up -d
+```
+separately 
+* ```npm run start:consumer```
+* ```npm run start:producer```
+
+##### todo
+- node app for **producer** *&* **consumer**
+
+
+> by video `EiDLKECLcZw`
