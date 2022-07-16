@@ -1,0 +1,24 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:producer": "node ./produces/index.js",
+    "start:producer:dev": "nodemon ./produces/index.js",
+    "start:consumer": "node ./consumer/index.js",
+    "start:consumer:dev": "nodemon ./consumer/index.js",
+    "start": "npm run start:producer && npm run start:consumer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "node-rdkafka": "^2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
